@@ -1,0 +1,19 @@
+<script>
+
+var guess, answer, message;
+
+// Gernerate random number between 1 and 100
+answer = Math.floor(Math.random() * 100 + 1);
+console.log(answer);
+
+guess = prompt("I'm holding a random number raffle between 1 and 100. Give it your best guess!");
+
+if (guess == answer) {
+  message = "You won the amazing prize of feeling great about guessing right!"
+}
+else {
+  message = "you got it wrong. shoot!, Better luck next time."
+}
+
+alert(message);
+</script>
